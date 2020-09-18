@@ -28,8 +28,8 @@ PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 # Run the target even if the matching name exists
 #.PHONY: run clean test  doc all
 
-all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
+#all: $(SRC) $(BUILD)
+	#gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
@@ -49,5 +49,5 @@ run:$(PROJECT_NAME)
 	#rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
 
 # Create new build folder if not present
-$(BUILD):
-	mkdir build
+#$(BUILD):
+	#mkdir build
