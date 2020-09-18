@@ -32,8 +32,8 @@ PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 	#gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
 
 # Call `make run` to run the application
-run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
+#run:$(PROJECT_NAME)
+	#./$(PROJECT_OUTPUT).out
 
 # Document the code using Doxygen
 #doc:
