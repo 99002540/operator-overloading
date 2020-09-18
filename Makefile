@@ -49,5 +49,5 @@ run:$(PROJECT_NAME)
 	#rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
 
 # Create new build folder if not present
-#$(BUILD):
+$(BUILD):
 	mkdir build
