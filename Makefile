@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = operator
+PROJECT_NAME = test_operator
 
 # Output directory
 BUILD = build
